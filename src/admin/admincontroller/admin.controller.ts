@@ -30,9 +30,7 @@ class AdminController {
         
         return;
       }
-      const tokenAdmin = {
-        adminPassword,
-      };
+      
 
       await adminModel.create(adminObj);
 
